@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+    margin: 50px;
+    padding: 0;
+    background-image: url('file:///C:/Users/TOSHIBA/Desktop/weather_app/image/weather%20image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.weather-container {
+    max-width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+h1 {
+    font-size: 40px;
+    color: rgb(0, 0, 255);
+}
+
+.location {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 60%;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.weather-info {
+    margin-top: 20px;
+    color: rgb(0,0,255);
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 22px;
+}
